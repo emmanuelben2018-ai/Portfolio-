@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #cbd5f5;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 8%;
+  max-width: 900px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #cbd5f5;
+  max-width: 600px;
+}
+
+.stack {
+  margin-top: 25px;
+}
+
+.stack span {
+  display: inline-block;
+  background: #1e293b;
+  padding: 8px 14px;
+  margin: 5px 5px 0 0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+/* SECTIONS */
+.section {
+  padding: 70px 8%;
+}
+
+.section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.alt {
+  background: #020617;
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.project-card h4 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #cbd5f5;
+}
+
+.tech {
+  margin: 15px 0;
+  font-size: 0.8rem;
+  color: #38bdf8;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #38bdf8;
+  font-size: 0.9rem;
+}
+
+/* SKILLS */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.skills-grid h4 {
+  margin-bottom: 15px;
+}
+
+.skills-grid ul {
+  list-style: none;
+}
+
+.skills-grid li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #cbd5f5;
+}
+
+/* ABOUT */
+.about-text {
+  max-width: 700px;
+  color: #cbd5f5;
+}
+
+/* CONTACT */
+.contact-links a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #38bdf8;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid #1e293b;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+}
